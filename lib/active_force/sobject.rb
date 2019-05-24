@@ -55,7 +55,7 @@ module ActiveForce
       mash.each do |column, sf_value|
         sobject.write_value column, sf_value
       end
-      sobject.changed_attributes.clear
+      sobject.clear_changes_information
       sobject
     end
 
@@ -65,7 +65,7 @@ module ActiveForce
       run_callbacks :save do
         run_callbacks :update do
           sfdc_client.update! table_name, attributes_for_sfdb
-          changed_attributes.clear
+          changes_applied
         end
       end
       true
@@ -86,7 +86,7 @@ module ActiveForce
       run_callbacks :save do
         run_callbacks :create do
           self.id = sfdc_client.create! table_name, attributes_for_sfdb
-          changed_attributes.clear
+          changes_applied
         end
       end
       self
@@ -144,7 +144,7 @@ module ActiveForce
       association_cache.clear
       reloaded = self.class.find(id)
       self.attributes = reloaded.attributes
-      changed_attributes.clear
+      clear_changes_information
       self
     end
 
