@@ -169,6 +169,6 @@ When using rails, you can generate a model with all the fields you have on your 
 6. Once accepted, please add an entry in the CHANGELOG and rebase your changes
    to squash typos or corrections.
 
- [1]: http://www.salesforce.com
+ [1]: https://www.salesforce.com
  [2]: https://github.com/ejholmes/restforce
  [3]: https://github.com/bkeepers/dotenv
