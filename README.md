@@ -1,8 +1,8 @@
-[![Gem Version](http://img.shields.io/gem/v/active_force.svg)](http://badge.fury.io/rb/active_force)
-[![Build Status](http://img.shields.io/travis/ionia-corporation/active_force.svg)](https://travis-ci.org/ionia-corporation/active_force)
-[![Test Coverage](https://codeclimate.com/github/ionia-corporation/active_force/badges/coverage.svg)](https://codeclimate.com/github/ionia-corporation/active_force)
-[![Inline docs](http://inch-ci.org/github/ionia-corporation/active_force.png?branch=master)](http://inch-ci.org/github/ionia-corporation/active_force)
-[![Chat](http://img.shields.io/badge/chat-gitter-brightgreen.svg)](https://gitter.im/ionia-corporation/active_force)
+[![Gem Version](https://img.shields.io/gem/v/openstax_active_force.svg)](http://badge.fury.io/rb/active_force)
+[![Build Status](https://img.shields.io/travis/openstax/active_force.svg)](https://travis-ci.org/openstax/active_force)
+[![Test Coverage](https://codeclimate.com/github/openstax/active_force/badges/coverage.svg)](https://codeclimate.com/github/openstax/active_force)
+[![Inline docs](http://inch-ci.org/github/openstax/active_force.png?branch=master)](http://inch-ci.org/github/openstax/active_force)
+[![Chat](http://img.shields.io/badge/chat-gitter-brightgreen.svg)](https://gitter.im/openstax/active_force)
 
 # ActiveForce
 
