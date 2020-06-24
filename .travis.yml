@@ -6,3 +6,9 @@ env:
   - "RAILS_VERSION=5.2.4.3"
   - "RAILS_VERSION=6.0.3"
 
+matrix:
+  allow_failures:
+    - env: "RAILS_VERSION=5.2.4.3"
+      rvm: 2.6.1
+    - env: "RAILS_VERSION=6.0.3"
+      rvm: 2.6.1
