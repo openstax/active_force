@@ -1,6 +1,7 @@
 require 'active_force/version'
 require 'active_force/sobject'
 require 'active_force/query'
+require 'active_model/null_mutation_tracker'
 
 module ActiveForce
 
