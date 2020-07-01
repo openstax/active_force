@@ -23,7 +23,8 @@ module ActiveAttr
     end
 
     def mutations_from_database
-      @mutations_from_database ||= ActiveModel::NullMutationTracker.instance
+      #@mutations_from_database ||= ActiveModel::NullMutationTracker.instance
+      @mutations_from_database ||= defined?(ActiveModel::ForcedMutationTracker) ? ActiveModel::ForcedMutationTracker.new(self) : ActiveModel::NullMutationTracker.instance
     end
 
     def forget_attribute_assignments
