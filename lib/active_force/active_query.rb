@@ -145,7 +145,7 @@ module ActiveForce
 
     def quote_string(s)
       # From activerecord/lib/active_record/connection_adapters/abstract/quoting.rb, version 4.1.5, line 82
-      s.gsub(/\\/, '\&\&').gsub(/'/, "''")
+      s.gsub(/\\/, '\&\&').gsub(/'/, "\\\\'")
     end
 
     def result
